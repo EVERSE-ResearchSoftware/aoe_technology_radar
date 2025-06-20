@@ -93,11 +93,13 @@ export const Radar: FC<RadarProps> = ({
         rings={rings}
         items={items}
       />
+
       <div className={styles.labels}>
         {segments.map((segment) => (
           <Label key={segment.id} segment={segment} />
         ))}
       </div>
+
       <Legend />
       <span
         className={cn(styles.tooltip, tooltip.show && styles.isShown)}

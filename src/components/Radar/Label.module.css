@@ -1,5 +1,5 @@
 .label {
-  width: 240px;
+  width: 300px;
   min-height: 210px;
   position: absolute;
   top: 0;
@@ -26,16 +26,51 @@
   opacity: 0.75;
 }
 
-.position-1,
-.position-2 {
-  left: auto;
-  right: 0;
+.position-1 {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -85%);
 }
 
-.position-2,
+.position-2 {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -85%);
+}
+
 .position-3 {
-  top: auto;
-  bottom: 0;
+  top: 0;
+  left: 90%;
+  transform: translateY(-85%);
+}
+
+.position-4 {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -85%);
+}
+
+.position-5 {
+  top: 50%;
+  left: 90%;
+  transform: translateY(-85%);
+}
+
+.position-6 {
+  left: 0;
+  top: 85%;
+  transform: translateX(-50%);
+}
+
+.position-7 {
+  left: 50%;
+  top: 85%;
+  transform: translateX(-50%);
+}
+
+.position-8 {
+  left: 90%;
+  top: 85%;
 }
 
 /** re-order the labels to top-left in some configurations */
@@ -47,12 +82,10 @@
   left: 0;
   right: auto;
 }
-
 [data-segments="5"] .position-3 {
   left: 50%;
   transform: translateX(-50%);
 }
-
 [data-segments="5"] .position-4 {
   top: auto;
   bottom: 0;
