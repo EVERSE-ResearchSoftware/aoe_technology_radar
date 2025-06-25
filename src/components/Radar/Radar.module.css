@@ -2,13 +2,15 @@
   padding: 0 15px 30px;
   position: relative;
   transition: padding 200ms ease-in-out;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .chart {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 180px auto 120px auto;
+  margin: 250px auto 180px auto;
   fill: currentColor;
   border-radius: 100%;
   overflow: visible;

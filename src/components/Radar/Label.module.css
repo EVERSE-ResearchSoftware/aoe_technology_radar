@@ -1,9 +1,7 @@
 .label {
-  width: 300px;
-  min-height: 210px;
+  width: 240px;
+  min-height: 180px;
   position: absolute;
-  top: 0;
-  left: 0;
   transition: all 0.2s ease-in-out;
 }
 
@@ -26,103 +24,67 @@
   opacity: 0.75;
 }
 
+/* Positions for 12 segments */
 .position-1 {
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -85%);
+  top: -5%;
+  left: -5%;
+  transform: translate(-100%, -90%);
 }
-
 .position-2 {
-  top: 0;
+  top: -5%;
   left: 50%;
-  transform: translate(-50%, -85%);
+  transform: translate(-50%, -90%);
 }
-
 .position-3 {
-  top: 0;
-  left: 90%;
-  transform: translateY(-85%);
+  top: -5%;
+  left: 105%;
+  transform: translate(-0%, -90%);
 }
 
 .position-4 {
-  top: 50%;
-  right: 0;
-  transform: translate(-50%, -85%);
+  top: 25%;
+  left: 105%;
+  transform: translate(0, -50%);
 }
-
 .position-5 {
   top: 50%;
-  left: 90%;
-  transform: translateY(-85%);
+  left: 105%;
+  transform: translate(0, -50%);
 }
-
 .position-6 {
-  left: 0;
-  top: 85%;
-  transform: translateX(-50%);
+  top: 75%;
+  left: 105%;
+  transform: translate(0, -50%);
 }
 
 .position-7 {
-  left: 50%;
-  top: 85%;
-  transform: translateX(-50%);
+  top: 90%;
+  left: 105%;
+  transform: translate(-0%, -10%);
 }
-
 .position-8 {
-  left: 90%;
-  top: 85%;
-}
-
-/** re-order the labels to top-left in some configurations */
-[data-segments="1"] .position-1,
-[data-segments="2"] .position-2,
-[data-segments="3"] .position-3 {
-  top: 0;
-  bottom: auto;
-  left: 0;
-  right: auto;
-}
-[data-segments="5"] .position-3 {
+  top: 90%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -10%);
 }
-[data-segments="5"] .position-4 {
-  top: auto;
-  bottom: 0;
+.position-9 {
+  top: 90%;
+  left: -5%;
+  transform: translate(-100%, -10%);
 }
 
-/* re-order the labels in the middle */
-[data-segments="6"] .position-2,
-[data-segments="6"] .position-5 {
-  bottom: auto;
+.position-10 {
+  top: 75%;
+  left: -5%;
+  transform: translate(-100%, -50%);
+}
+.position-11 {
   top: 50%;
-  transform: translateY(-50%);
+  left: -5%;
+  transform: translate(-100%, -50%);
 }
-
-[data-segments="6"] .position-3 {
-  left: auto;
-  right: 0;
-  bottom: 0;
-}
-
-[data-segments="6"] .position-4 {
-  left: 0;
-  right: auto;
-  top: auto;
-  bottom: 0;
-}
-
-@media (max-width: 968px) {
-  [data-segments="6"] .description {
-    display: none;
-  }
-}
-
-@media (min-width: 1440px) {
-  [data-segments="6"] .position-5 {
-    left: -10%;
-  }
-  [data-segments="6"] .position-2 {
-    right: -10%;
-  }
+.position-12 {
+  top: 25%;
+  left: -5%;
+  transform: translate(-100%, -50%);
 }
