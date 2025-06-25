@@ -44,6 +44,7 @@ export interface Segment {
   label?: string; // only used in the radar labels
   color: string;
   position: number;
+  midAngle?: number;
 }
 
 export interface FooterLink {

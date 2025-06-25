@@ -169,6 +169,43 @@ const _Chart: FC<ChartProps> = ({
     });
   };
 
+  const renderSegmentLabels = () => {
+    const numSegments = segments.length;
+    const labelRadius = center + 20; // Adjust this value to control distance from the radar
+
+    return segments.map((segment) => {
+      const { startAngle, endAngle } = calculateSegmentAngles(
+        segment.position,
+        numSegments,
+      );
+      const midAngle = startAngle + (endAngle - startAngle) / 2;
+      const { x, y } = polarToCartesian(labelRadius, midAngle);
+
+      const tolerance = 5;
+      let textAnchor = "middle";
+      if (midAngle > tolerance && midAngle < 180 - tolerance) {
+        textAnchor = "start";
+      } else if (midAngle > 180 + tolerance && midAngle < 360 - tolerance) {
+        textAnchor = "end";
+      }
+
+      return (
+        <text
+          key={segment.id}
+          x={x}
+          y={y}
+          textAnchor={textAnchor}
+          dominantBaseline="middle"
+          fontSize="14"
+          fontWeight="bold"
+          fill="var(--text)"
+        >
+          {segment.title}
+        </text>
+      );
+    });
+  };
+
   return (
     <svg
       className={className}
@@ -220,6 +257,7 @@ const _Chart: FC<ChartProps> = ({
       <g className={styles.ringLabels} data-key="labels">
         {renderRingLabels()}
       </g>
+      {renderSegmentLabels()}
     </svg>
   );
 };
