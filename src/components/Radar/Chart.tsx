@@ -14,6 +14,11 @@ export interface ChartProps {
   className?: string;
 }
 
+// React's SVG typings for <text> `textAnchor` are a strict union. Define a helper type/constant
+// to avoid "string is not assignable" errors under stricter TS/Next builds.
+type SvgTextAnchor = NonNullable<React.SVGProps<SVGTextElement>["textAnchor"]>;
+const MIDDLE_TEXT_ANCHOR: SvgTextAnchor = "middle";
+
 const _Chart: FC<ChartProps> = ({
   size = 800,
   segments = [],
@@ -149,7 +154,7 @@ const _Chart: FC<ChartProps> = ({
           <text
             x={center + position}
             y={center}
-            textAnchor="middle"
+            textAnchor={MIDDLE_TEXT_ANCHOR}
             dominantBaseline="middle"
             fontSize="12"
           >
@@ -158,7 +163,7 @@ const _Chart: FC<ChartProps> = ({
           <text
             x={center - position}
             y={center}
-            textAnchor="middle"
+            textAnchor={MIDDLE_TEXT_ANCHOR}
             dominantBaseline="middle"
             fontSize="12"
           >
