@@ -90,6 +90,7 @@ const _Chart: FC<ChartProps> = ({
           r={center}
           fill={color}
           mask="url(#glow-mask)"
+          pointerEvents="none"
         />
       );
     }
@@ -103,6 +104,7 @@ const _Chart: FC<ChartProps> = ({
           height={size}
           fill={color}
           mask="url(#glow-mask)"
+          pointerEvents="none"
         />
       );
     }
@@ -119,6 +121,7 @@ const _Chart: FC<ChartProps> = ({
         points={`${center},${center} ${start.x},${start.y} ${end.x},${end.y}`}
         fill={color}
         mask="url(#glow-mask)"
+        pointerEvents="none"
       />
     );
   };
