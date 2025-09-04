@@ -190,7 +190,7 @@ const _Chart: FC<ChartProps> = ({
       const { x, y } = polarToCartesian(labelRadius, midAngle);
 
       const tolerance = 5;
-      let textAnchor = "middle";
+      let textAnchor: SvgTextAnchor = "middle";
       if (midAngle > tolerance && midAngle < 180 - tolerance) {
         textAnchor = "start";
       } else if (midAngle > 180 + tolerance && midAngle < 360 - tolerance) {
