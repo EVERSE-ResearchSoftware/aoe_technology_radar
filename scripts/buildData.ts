@@ -23,6 +23,7 @@ const segments = config.segments.map((s, i) => ({
   name: s.title,
   id: s.id,
   position: i + 1,
+  tasks: s.tasks,
 }));
 const segmentIds = segments.map((s) => s.id);
 const tags = (config as { tags?: string[] }).tags || [];

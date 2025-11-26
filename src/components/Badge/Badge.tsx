@@ -76,6 +76,26 @@ export function RingBadge({
     </Badge>
   );
 }
+interface TaskBadgeProps extends Omit<BadgeProps, "color" | "children"> {
+  task: string;
+  release?: string;
+}
+export function TaskBadge({
+  task: taskName,
+  release,
+  ...props
+}: TaskBadgeProps) {
+  const task = taskName;
+  if (!task) return null;
+
+  const label = release ? `${task} | ${formatRelease(release)}` : task;
+
+  return (
+    <Badge color={"#5cb449"} {...props}>
+      {label}
+    </Badge>
+  );
+}
 
 // Type guard to check if flag has the required attributes
 function hasRequiredFlagAttributes(flag: any): flag is {
