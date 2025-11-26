@@ -11,6 +11,7 @@ interface TaskListProps {
 }
 
 export function TaskList({ items }: TaskListProps) {
+  if (!items) return null;
   return (
     <ul className={cn(styles.list)}>
       <TaskBadge className={styles.badge} task={"Tasks"} />

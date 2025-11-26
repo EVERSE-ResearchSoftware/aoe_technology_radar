@@ -26,17 +26,7 @@
       "id": "compatibility",
       "title": "Compatibility",
       "description": "Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.",
-      "color": "#4E79A7",
-      "tasks": [
-        {
-          "title": "Task 1",
-          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
-        },
-        {
-          "title": "Task 2",
-          "link": "https://everse.software/RSQKit/software_identifiers"
-        }
-      ]
+      "color": "#4E79A7"
     },
     {
       "id": "fairness",
