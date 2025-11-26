@@ -16,7 +16,7 @@ export function TaskList({ items }: TaskListProps) {
       <TaskBadge className={styles.badge} task={"Tasks"} />
       {items.map((item, index) => (
         <li key={index} className={styles.item}>
-          <Link href={item.link}>
+          <Link className={styles.link} href={item.link}>
             <span className={styles.title}>{item.title}</span>
           </Link>
         </li>

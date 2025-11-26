@@ -25,12 +25,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .tasks.isSmall {
-    --cols: 4;
-  }
-}
-
 @media (min-width: 1024px) {
   .tasks {
     --cols: 4;
@@ -46,4 +40,21 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.link {
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+
+  &.isFadedOut {
+    opacity: 0.65;
+  }
+
+  &:hover,
+  &.isActive {
+    background: var(--foreground);
+    color: var(--background);
+    opacity: 1;
+  }
 }

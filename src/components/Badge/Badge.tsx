@@ -91,7 +91,7 @@ export function TaskBadge({
   const label = release ? `${task} | ${formatRelease(release)}` : task;
 
   return (
-    <Badge color={"#5cb449"} {...props}>
+    <Badge color={"#a47a58a3"} {...props}>
       {label}
     </Badge>
   );

@@ -28,8 +28,14 @@
       "description": "Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.",
       "color": "#4E79A7",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -38,8 +44,14 @@
       "description": "FAIRness refers to the degree to which research software adheres to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.",
       "color": "#F28E2B",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -48,8 +60,14 @@
       "description": "Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment. ",
       "color": "#E15759",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -58,8 +76,14 @@
       "description": "This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. ",
       "color": "#76B7B2",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -68,8 +92,14 @@
       "description": "This characteristic represents the degree to which a product or system supports users in performing their tasks and achieving specified goals.",
       "color": "#59A14F",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -78,8 +108,14 @@
       "description": "This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.",
       "color": "#EDC948",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -88,8 +124,14 @@
       "description": "This characteristic represents the degree to which a product performs its functions within specified time and throughput parameters and is efficient in the use of resources (such as CPU, memory, storage, network devices, energy, materials...) under specified conditions.",
       "color": "#B07AA1",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -98,8 +140,14 @@
       "description": "Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.",
       "color": "#FF9DA7",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -108,8 +156,14 @@
       "description": "This characteristic represents the degree to which a product under defined conditions to avoid a state in which human life, health, property, or the environment is endangered.",
       "color": "#9C755F",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -118,8 +172,14 @@
       "description": "Degree to which a product or system defends against attack patterns by malicious actors and protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.",
       "color": "#BAB0AC",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     },
     {
@@ -128,8 +188,14 @@
       "description": "The capacity of the software to endure. In other words, sustainability means that the software will continue to be available in the future, on new platforms, meeting new needs.",
       "color": "#5FA2CE",
       "tasks": [
-        { "title": "Task 1", "link": "https://everse.software/RSQKit/tasks" },
-        { "title": "Task 2", "link": "https://everse.software/RSQKit/tasks" }
+        {
+          "title": "Task 1",
+          "link": "https://everse.software/RSQKit/archiving_software#how-to-cite-this-page"
+        },
+        {
+          "title": "Task 2",
+          "link": "https://everse.software/RSQKit/software_identifiers"
+        }
       ]
     }
   ],
