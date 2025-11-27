@@ -37,119 +37,289 @@
       "title": "Tools & Utilities",
       "description": "A range of software tools, from simple productivity enhancers to comprehensive project solutions, catering to various project needs.",
       "label": "Dimension 2",
-      "color": "#F7AD45"
+      "color": "#F7AD45",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s3",
       "title": "Platforms & Infrastructure",
       "description": "Technologies and tools for software and infrastructure operations, including platforms and services for managing and scaling applications.",
       "label": "Dimension 3",
-      "color": "#657C6A"
+      "color": "#657C6A",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s4",
       "title": "Languages & Frameworks",
       "description": "A selection of programming languages, alongside essential frameworks for building a variety of custom software.",
       "label": "Dimension 4",
-      "color": "#A2B9A7"
+      "color": "#A2B9A7",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s5",
       "title": "Emerging Technologies",
       "description": "Emerging technologies and concepts that are being explored for future adoption.",
       "label": "Dimension 5",
-      "color": "#FF3F33"
+      "color": "#FF3F33",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s6",
       "title": "Deprecated Practices",
       "description": "Technologies and practices that are being phased out or deprecated.",
       "label": "Dimension 6",
-      "color": "#075B5E"
+      "color": "#075B5E",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s7",
       "title": "On-Hold Technologies",
       "description": "Technologies that are in the 'hold' phase, meaning they are stable but not actively developed.",
       "label": "Dimension 7",
-      "color": "#2B2D42"
+      "color": "#2B2D42",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s8",
       "title": "Under Assessment",
       "description": "Technologies that are in the 'assess' phase, meaning they are being evaluated for potential adoption.",
       "label": "Dimension 8",
-      "color": "#8D99AE"
+      "color": "#8D99AE",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s9",
       "title": "Data & Analytics",
       "description": "Description for segment 9.",
       "label": "Dimension 9",
-      "color": "#FF6347"
+      "color": "#FF6347",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s10",
       "title": "Security & Compliance",
       "description": "Description for segment 10.",
       "label": "Dimension 10",
-      "color": "#4682B4"
+      "color": "#4682B4",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s11",
       "title": "Mobile Development",
       "description": "Description for segment 11.",
       "label": "Dimension 11",
-      "color": "#32CD32"
+      "color": "#32CD32",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s12",
       "title": "AI & Machine Learning",
       "description": "Description for segment 12.",
       "label": "Dimension 12",
-      "color": "#FFD700"
+      "color": "#FFD700",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s13",
       "title": "Cloud Technologies",
       "description": "Description for segment 13.",
       "label": "Dimension 13",
-      "color": "#E6E6FA"
+      "color": "#E6E6FA",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s14",
       "title": "Frontend Development",
       "description": "Description for segment 14.",
       "label": "Dimension 14",
-      "color": "#D2B48C"
+      "color": "#D2B48C",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s15",
       "title": "Backend Development",
       "description": "Description for segment 15.",
       "label": "Dimension 15",
-      "color": "#A0522D"
+      "color": "#A0522D",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s16",
       "title": "DevOps",
       "description": "Description for segment 16.",
       "label": "Dimension 16",
-      "color": "#808000"
+      "color": "#808000",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s17",
       "title": "UI/UX Design",
       "description": "Description for segment 17.",
       "label": "Dimension 17",
-      "color": "#708090"
+      "color": "#708090",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "s18",
       "title": "Testing",
       "description": "Description for segment 18.",
       "label": "Dimension 18",
-      "color": "#C04000"
+      "color": "#C04000",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     }
   ]
 }

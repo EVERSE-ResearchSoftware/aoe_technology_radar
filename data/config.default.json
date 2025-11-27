@@ -28,28 +28,68 @@
       "title": "Methods & Patterns",
       "description": "Key software development methods and design patterns, covering everything from continuous integration and testing to architecture.",
       "label": "Quadrant 2",
-      "color": "#40713f"
+      "color": "#40713f",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "tools",
       "title": "Tools",
       "description": "A range of software tools, from simple productivity enhancers to comprehensive project solutions, catering to various project needs.",
       "label": "Quadrant 4",
-      "color": "#588157"
+      "color": "#588157",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "platforms-and-operations",
       "title": "Platforms & Operations",
       "description": "Technologies and tools for software and infrastructure operations, including platforms and services for managing and scaling applications.",
       "label": "Quadrant 3",
-      "color": "#3f633e"
+      "color": "#3f633e",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     },
     {
       "id": "languages-and-frameworks",
       "title": "Languages & Frameworks",
       "description": "A selection of programming languages, alongside essential frameworks for building a variety of custom software.",
       "label": "Quadrant 1",
-      "color": "#a3b18a"
+      "color": "#a3b18a",
+      "tasks": [
+        {
+          "title": "Task1 title",
+          "link": "link of task1 page"
+        },
+        {
+          "title": "Task2 title",
+          "link": "link of task2 page"
+        }
+      ]
     }
   ],
   "rings": [
