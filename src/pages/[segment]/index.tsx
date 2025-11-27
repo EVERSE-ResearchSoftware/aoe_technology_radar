@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { useMemo } from "react";
 
 import { RingList } from "@/components/RingList/RingList";
+import { TaskList } from "@/components/TaskList/TaskList";
 import {
   getItems,
   getSegment,
@@ -27,11 +28,10 @@ const SegmentPage: CustomPage = () => {
         <title>{formatTitle(segment.title)}</title>
         <meta name="description" content={segment.description} />
       </Head>
-
       <h1>{segment.title}</h1>
       <h2>{segment.description}</h2>
-
       <RingList items={items} />
+      <TaskList items={segment.tasks} />
     </>
   );
 };

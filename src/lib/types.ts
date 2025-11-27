@@ -36,7 +36,10 @@ export interface Ring {
   radius?: number;
   strokeWidth?: number;
 }
-
+export interface TaskItem {
+  title: string;
+  link: string;
+}
 export interface Segment {
   id: string;
   title: string;
@@ -45,6 +48,7 @@ export interface Segment {
   color: string;
   position: number;
   midAngle?: number;
+  tasks: TaskItem[];
 }
 
 export interface FooterLink {
