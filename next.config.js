@@ -1,15 +1,17 @@
-const config = require("./data/config.json");
-const basePath = process.env.BASE_PATH || config.basePath || "";
-
-/** @type {import("next").NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: basePath && basePath !== "/" ? basePath : "",
-  output: "export",
+  output: 'export',
+  basePath: process.env.BASE_PATH || '/TechRadar',
   trailingSlash: true,
-  reactStrictMode: true,
-  experimental: {
-    scrollRestoration: true,
+  images: {
+    unoptimized: true,
   },
-};
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig 

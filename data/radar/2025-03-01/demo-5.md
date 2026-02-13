@@ -1,8 +1,0 @@
----
-title: "Demo 5"
-ring: trial
-segment: s3
-tags: [coding, segment]
----
-
-This is a demo creating an item using segment.

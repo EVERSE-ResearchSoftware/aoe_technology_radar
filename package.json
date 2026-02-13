@@ -1,47 +1,29 @@
 {
-  "name": "aoe_technology_radar",
-  "version": "5.0.0-rc.5",
-  "bin": {
-    "techradar": "bin/techradar.js"
-  },
+  "name": "everse-technology-radar",
+  "version": "5.1.0-enhanced",
+  "description": "EVERSE Technology Radar with enhanced UI",
   "scripts": {
     "dev": "next dev",
-    "build:icons": "npx @svgr/cli --typescript --no-dimensions --no-prettier --out-dir src/components/Icons -- src/icons",
-    "build:data": "tsx scripts/buildData.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "fix": "prettier . --write",
-    "prepare": "husky",
-    "postinstall": "npm run build:icons"
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0",
+    "gray-matter": "^4.0.3",
+    "fuse.js": "^7.0.0",
+    "classnames": "^2.3.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
-    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/node": "^22",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "clsx": "^2.1.1",
-    "eslint": "^9.25.1",
-    "eslint-config-next": "15.3.1",
-    "fuse.js": "^7.1.0",
-    "gray-matter": "^4.0.3",
-    "highlight.js": "^11.11.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.1",
-    "marked": "^15.0.11",
-    "marked-highlight": "^2.2.1",
-    "next": "^15.5.2",
-    "postcss-nested": "^7.0.2",
-    "postcss-preset-env": "^10.1.6",
-    "prettier": "^3.5.3",
-    "react": "^19",
-    "react-dom": "^19",
-    "tsx": "^4.19.4",
-    "typescript": "^5"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
   }
 }

@@ -1,0 +1,180 @@
+{
+  "basePath": "/TechRadar",
+  "baseUrl": "https://everse.software/TechRadar",
+  "logoFile": "logo.svg",
+  
+  "toggles": {
+    "showSearch": true,
+    "showChart": true,
+    "showTagFilter": true,
+    "showSegmentList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  
+  "chart": {
+    "size": 1000,
+    "blipSize": 11
+  },
+  
+  "colors": {
+    "background": "#ffffff",
+    "text": "#2c3e50",
+    "link": "#007bff",
+    "border": "#dee2e6",
+    "accent": "#007bff"
+  },
+  "segments":  [
+    {
+      "id": "compatibility",
+      "title": "Compatibility",
+      "description": "Degree to which a product, system or component can exchange information with other products, systems or components.",
+      "color": "#A8E6CF",
+      "label": "Segment 1"
+    },
+    {
+      "id": "fairness",
+      "title": "FAIRness",
+      "description": "FAIRness refers to the degree to which research software adheres to the FAIR principles.",
+      "color": "#FFD3B6",
+      "label": "Segment 2"
+    },
+    {
+      "id": "flexibility",
+      "title": "Flexibility",
+      "description": "Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment.",
+      "color": "#FFAAA5",
+      "label": "Segment 3"
+    },
+    {
+      "id": "functional_suitability",
+      "title": "Functional Suitability",
+      "description": "The degree to which a product or system provides functions that meet stated and implied needs.",
+      "color": "#FF8B94",
+      "label": "Segment 4"
+    },
+    {
+      "id": "interaction_capability",
+      "title": "Interaction Capability",
+      "description": "The degree to which a product or system supports users in performing their tasks.",
+      "color": "#C7CEEA",
+      "label": "Segment 5"
+    },
+    {
+      "id": "maintainability",
+      "title": "Maintainability",
+      "description": "The degree of effectiveness and efficiency with which a product can be modified.",
+      "color": "#B5EAD7",
+      "label": "Segment 6"
+    },
+    {
+      "id": "performance_efficiency",
+      "title": "Performance Efficiency",
+      "description": "The degree to which a product performs its functions within specified parameters.",
+      "color": "#FFE5B4",
+      "label": "Segment 7"
+    },
+    {
+      "id": "reliability",
+      "title": "Reliability",
+      "description": "Degree to which a system performs specified functions under specified conditions.",
+      "color": "#D4A5A5",
+      "label": "Segment 8"
+    },
+    {
+      "id": "safety",
+      "title": "Safety",
+      "description": "The degree to which a product avoids a state in which human life, health, or environment is endangered.",
+      "color": "#FFDFD3",
+      "label": "Segment 9"
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "description": "Degree to which a product protects information and data.",
+      "color": "#E8DFF5",
+      "label": "Segment 10"
+    },
+    {
+      "id": "sustainability",
+      "title": "Sustainability",
+      "description": "The capacity of the software to endure.",
+      "color": "#CCE2CB",
+      "label": "Segment 11"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "We feel strongly that the industry should be adopting these items. Use these technologies.",
+      "color": "#5CB85C",
+      "radius": 0.33,
+      "strokeWidth": 2.5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "Worth pursuing. It is important to understand how to build up this capability.",
+      "color": "#F0AD4E",
+      "radius": 0.66,
+      "strokeWidth": 2.5
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "Worth exploring with the goal of understanding how it will affect your enterprise.",
+      "color": "#D9534F",
+      "radius": 1,
+      "strokeWidth": 2.5
+    }
+  ],
+  
+  "flags": {
+    "new": {
+      "color": "#0DBD0D",
+      "title": "New in this version",
+      "titleShort": "N",
+      "description": "New items added in the latest version"
+    },
+    "changed": {
+      "color": "#FFD93D",
+      "title": "Recently changed",
+      "titleShort": "C",
+      "description": "Items that have been updated recently"
+    },
+    "default": {
+      "color": "#6c757d",
+      "title": "Unchanged",
+      "titleShort": "U",
+      "description": "Items that haven't changed"
+    }
+  },
+  
+  "social": [
+    {
+      "href": "https://github.com/EVERSE-ResearchSoftware",
+      "icon": "github"
+    }
+  ],
+  
+  "footerLinks": [
+    {
+      "label": "EVERSE Information",
+      "url": "https://everse.software/about/consortium/"
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://everse.software/privacy/"
+    }
+  ],
+  
+  "labels": {
+    "title": "EVERSE Technology Radar",
+    "subtitle": "Technology Radar for tools and services for research software quality",
+    "pageAbout": "How to use EVERSE Technology Radar",
+    "pageOverview": "Technologies Overview",
+    "footer": "Technology Radar content developed as part of the EVERSE project"
+  }
+}
+

@@ -1,0 +1,27 @@
+.radar {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.blip {
+  transition: all 0.2s ease;
+}
+
+.blip:hover {
+  r: 7;
+  opacity: 1 !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.blipHitArea {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .radar {
+    max-width: 400px;
+  }
+}
